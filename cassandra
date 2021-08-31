@@ -1,0 +1,556 @@
+Skip to concept
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@ChatnaPavan 
+onecompiler
+/
+tutorials
+2
+62
+Code
+Issues
+1
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+index.json modifications
+ master
+Chatna Pavan committed on Aug 31, 2021 
+1 parent 1a21435 commit d56e87999236c21dad6c4feaa4fe3fb6e7035f3b
+Showing  with 233 additions and 229 deletions.
+  3  c/index.json 
+@@ -1,4 +1,5 @@
+{
+    "_id": "c",
+    "title": "C Language",
+    "description": "C Tutorial - Learn the concepts of C programming language, practice the sample programs and try yourself using our free editor.",
+    "created": "2019-10-01",
+@@ -120,4 +121,4 @@
+            ]
+        }
+    ]
+}
+} 
+ 103  cassandra/index.json 
+@@ -1, 59, +1,60 @@
+{
+    "_id": "cassandra",
+    "title": "Cassandra",
+    "description": "Easy to Understand database tutorials for beginners with core concepts and examples.",
+    "created": "2019-10-01",
+    "updated": "2020-07-07",
+    "cover": "",
+    "index": [
+    {
+        "title": "Introduction",
+        "path": "introduction",
+        "links": [
+            {
+                "title": "Introduction",
+                "path": "introduction"
+            }
+        ]
+    },
+    {
+        "title": "CRUD Operations",
+        "path": "crud-operations",
+        "links": [
+            {
+                "title": "Creating Keyspace",
+                "path": "creating-keyspace"
+            },
+            {
+                "title": "Deleting Keyspace",
+                "path": "deleting-keyspace"
+            },
+            {
+                "title": "Creating Table",
+                "path": "creating-table"
+            },
+            {
+                "title": "Inserting Data",
+                "path": "creating-data"
+            },
+            {
+                "title": "Updating Data",
+                "path": "updating-data"
+            },
+            {
+                "title": "Deleting Data",
+                "path": "deleting-data"
+            }
+        ]
+    },
+    {
+        "title": "Advanced Topics",
+        "path": "advanced",
+        "links": [
+            {
+                "title": "Collection Data types",
+                "path": "collection-data-types"
+            }
+        ]
+    }
+]
+        {
+            "title": "Introduction",
+            "path": "introduction",
+            "links": [
+                {
+                    "title": "Introduction",
+                    "path": "introduction"
+                }
+            ]
+        },
+        {
+            "title": "CRUD Operations",
+            "path": "crud-operations",
+            "links": [
+                {
+                    "title": "Creating Keyspace",
+                    "path": "creating-keyspace"
+                },
+                {
+                    "title": "Deleting Keyspace",
+                    "path": "deleting-keyspace"
+                },
+                {
+                    "title": "Creating Table",
+                    "path": "creating-table"
+                },
+                {
+                    "title": "Inserting Data",
+                    "path": "creating-data"
+                },
+                {
+                    "title": "Updating Data",
+                    "path": "updating-data"
+                },
+                {
+                    "title": "Deleting Data",
+                    "path": "deleting-data"
+                }
+            ]
+        },
+        {
+            "title": "Advanced Topics",
+            "path": "advanced",
+            "links": [
+                {
+                    "title": "Collection Data types",
+                    "path": "collection-data-types"
+                }
+            ]
+        }
+    ]
+} 
+ 91  couchdb/index.json 
+@@ -1,53 +1,54 @@
+{
+    "_id": "couchdb",
+    "title": "CouchDB",
+    "description": "Easy to Understand database tutorials for beginners with core concepts and examples.",
+    "created": "2019-10-01",
+    "updated": "2020-07-07",
+    "cover": "",
+    "index": [
+    {
+        "title": "Introduction",
+        "path": "introduction",
+        "links": [
+            {
+                "title": "What is CouchDb",
+                "path": "what-is-couchdb"
+            },
+            {
+                "title": "Key Concepts",
+                "path": "key-concepts"
+            },
+            {
+                "title": "Installation",
+                "path": "installation"
+            }
+        ]
+    },
+    {
+        "title": "CRUD Operations",
+        "path": "crud-operations",
+        "links": [
+            {
+                "title": "Creating database",
+                "path": "creating-database"
+            },
+            {
+                "title": "Deleting database",
+                "path": "deleting-database"
+            },
+            {
+                "title": "Creating Data",
+                "path": "creating-data"
+            },
+            {
+                "title": "Updating Data",
+                "path": "updating-data"
+            },
+            {
+                "title": "Deleting Data",
+                "path": "deleting-data"
+            }
+        ]
+    }
+]
+        {
+            "title": "Introduction",
+            "path": "introduction",
+            "links": [
+                {
+                    "title": "What is CouchDb",
+                    "path": "what-is-couchdb"
+                },
+                {
+                    "title": "Key Concepts",
+                    "path": "key-concepts"
+                },
+                {
+                    "title": "Installation",
+                    "path": "installation"
+                }
+            ]
+        },
+        {
+            "title": "CRUD Operations",
+            "path": "crud-operations",
+            "links": [
+                {
+                    "title": "Creating database",
+                    "path": "creating-database"
+                },
+                {
+                    "title": "Deleting database",
+                    "path": "deleting-database"
+                },
+                {
+                    "title": "Creating Data",
+                    "path": "creating-data"
+                },
+                {
+                    "title": "Updating Data",
+                    "path": "updating-data"
+                },
+                {
+                    "title": "Deleting Data",
+                    "path": "deleting-data"
+                }
+            ]
+        }
+    ]
+} 
+ 1  java/index.json 
+@@ -1,4 +1,5 @@
+{
+    "_id": "java",
+    "title": "Java",
+    "description": "Java Tutorial - Learn the concepts of Java, practice the sample programs and try yourself using our free editor.",
+    "created": "2019-10-01",
+ 264  javascript/index.json 
+@@ -1,140 +1,140 @@
+{
+    "_id": "javascript",
+    "title": "Javascript",
+    "description": "Javascript Tutorial - Learn the concepts of Javascript, practice the sample programs and try yourself using our free editor.",
+    "created": "2019-10-01",
+    "updated": "2020-07-07",
+    "cover": "",
+    "index": [
+    {
+        "title" : "Basics",
+        "path" : "basics",
+        "links" : [
+            {
+                "title" : "Introduction to Javascript",
+                "path" : "introduction"
+            },
+            {
+                "title" : "Variables",
+                "path" : "variables"
+            },
+            {
+                "title" : "Data Types",
+                "path" : "data-types"
+            },
+            {
+                "title" : "Date and Time",
+                "path" : "date-and-time"
+            },
+            {
+                "title" : "Operators",
+                "path" : "operators"
+            },
+            {
+                "title" : "Classes",
+                "path" : "classes"
+            },
+            {
+                "title" : "Objects",
+                "path" : "objects"
+            },
+            {
+                "title" : "Methods",
+                "path" : "methods"
+            },
+            {
+                "title" : "Arrow Function",
+                "path" : "arrow-function"
+            }                                                 
+        ]
+    },
+    {
+        "title" : "Arrays",
+        "path" : "arrays",
+        "links" : [
+            {
+                "title" : "Arrays",
+                "path" : "arrays"
+            }
+        ]
+    },
+    {
+        "title" : "Control statements",
+        "path" : "loops",
+        "links" : [
+            {
+                "title" : "Conditional statements",
+                "path" : "conditional-statements"
+            },
+            {
+                "title" : "Loops",
+                "path" : "loops"
+            }
+        ]
+    },
+
+    {
+        "title" : "Functions",
+        "path" : "functions",
+        "links" : [
+            {
+                "title" : "Functions",
+                "path" : "functions"
+            }
+        ]
+    },
+    {
+        "title" : "Modules",
+        "path" : "modules",
+        "links" : [
+            {
+                "title" : "Modules",
+                "path" : "modules"
+            }
+        ]
+    },
+    {
+        "title" : "Promises-Async-Await",
+        "path" : "promises-async-await",
+        "links" : [
+            {
+                "title" : "Promises-Async-Await",
+                "path" : "promises-async-await"
+            }
+        ]
+    },
+    {
+        "title" : "Error Handling",
+        "path" : "error-handling",
+        "links" : [
+            {
+                "title" : "Error Handling",
+                "path" : "error-handling"
+            }
+        ]
+    },
+    {
+        "title" : "More Topics",
+        "path" : "misc",
+        "links" : [
+            {
+                "title" : "Object Destructuring",
+                "path" : "object-destructuring"
+            }, 
+            {
+                "title" : "Callback functions",
+                "path" : "callback-functions"
+            }
+        ]
+    },
+    {
+        "title" : "Solved examples",
+        "path" : "examples",
+        "links" : [
+            {
+                "title" : "Examples",
+                "path" : "examples"
+            }
+        ]
+    }
+]
+        {
+            "title": "Basics",
+            "path": "basics",
+            "links": [
+                {
+                    "title": "Introduction to Javascript",
+                    "path": "introduction"
+                },
+                {
+                    "title": "Variables",
+                    "path": "variables"
+                },
+                {
+                    "title": "Data Types",
+                    "path": "data-types"
+                },
+                {
+                    "title": "Date and Time",
+                    "path": "date-and-time"
+                },
+                {
+                    "title": "Operators",
+                    "path": "operators"
+                },
+                {
+                    "title": "Classes",
+                    "path": "classes"
+                },
+                {
+                    "title": "Objects",
+                    "path": "objects"
+                },
+                {
+                    "title": "Methods",
+                    "path": "methods"
+                },
+                {
+                    "title": "Arrow Function",
+                    "path": "arrow-function"
+                }
+            ]
+        },
+        {
+            "title": "Arrays",
+            "path": "arrays",
+            "links": [
+                {
+                    "title": "Arrays",
+                    "path": "arrays"
+                }
+            ]
+        },
+        {
+            "title": "Control statements",
+            "path": "loops",
+            "links": [
+                {
+                    "title": "Conditional statements",
+                    "path": "conditional-statements"
+                },
+                {
+                    "title": "Loops",
+                    "path": "loops"
+                }
+            ]
+        },
+        {
+            "title": "Functions",
+            "path": "functions",
+            "links": [
+                {
+                    "title": "Functions",
+                    "path": "functions"
+                }
+            ]
+        },
+        {
+            "title": "Modules",
+            "path": "modules",
+            "links": [
+                {
+                    "title": "Modules",
+                    "path": "modules"
+                }
+            ]
+        },
+        {
+            "title": "Promises-Async-Await",
+            "path": "promises-async-await",
+            "links": [
+                {
+                    "title": "Promises-Async-Await",
+                    "path": "promises-async-await"
+                }
+            ]
+        },
+        {
+            "title": "Error Handling",
+            "path": "error-handling",
+            "links": [
+                {
+                    "title": "Error Handling",
+                    "path": "error-handling"
+                }
+            ]
+        },
+        {
+            "title": "More Topics",
+            "path": "misc",
+            "links": [
+                {
+                    "title": "Object Destructuring",
+                    "path": "object-destructuring"
+                },
+                {
+                    "title": "Callback functions",
+                    "path": "callback-functions"
+                }
+            ]
+        },
+        {
+            "title": "Solved examples",
+            "path": "examples",
+            "links": [
+                {
+                    "title": "Examples",
+                    "path": "examples"
+                }
+            ]
+        }
+    ]
+} 
+0 comments on commit d56e879
+@ChatnaPavan
+ 
+ 
+Leave a comment
+No file chosen
+Attach files by dragging & dropping, selecting or pasting them.
+ You’re not receiving notifications from this thread.
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
